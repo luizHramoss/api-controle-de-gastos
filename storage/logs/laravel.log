@@ -1,0 +1,334 @@
+[2026-05-20 21:18:28] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 /var/www/html/api-controle-de-gastos/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#10 {main}
+"} 
+[2026-05-20 21:18:28] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(7): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:28] production.ERROR: Uncaught ReflectionException: Class "view" does not exist in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\Foundation\Application->make()
+#6 Command line code(70): app()
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\Foundation\Application->make()
+#5 Command line code(70): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\\Foundation\\Application->make()
+#6 Command line code(70): app()
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\\Foundation\\Application->make()
+#5 Command line code(70): app()
+#6 {main}
+  thrown at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(247): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: '...', code: '...', error: '...', traceOffset: '...', traceArgs: '...', trace: '...')
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '...', traceOffset: '...')
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:/var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:257-259}()
+#4 {main}
+"} 
+[2026-05-20 21:18:29] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(7): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:29] production.ERROR: Uncaught ReflectionException: Class "view" does not exist in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\Foundation\Application->make()
+#6 Command line code(70): app()
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\Foundation\Application->make()
+#5 Command line code(70): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\\Foundation\\Application->make()
+#6 Command line code(70): app()
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\\Foundation\\Application->make()
+#5 Command line code(70): app()
+#6 {main}
+  thrown at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(247): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: '...', code: '...', error: '...', traceOffset: '...', traceArgs: '...', trace: '...')
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '...', traceOffset: '...')
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:/var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:257-259}()
+#4 {main}
+"} 
+[2026-05-20 21:18:29] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(7): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:29] production.ERROR: Uncaught ReflectionException: Class "view" does not exist in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\Foundation\Application->make()
+#6 Command line code(70): app()
+#7 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\Container\Container->build()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\Container\Container->resolve()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\Foundation\Application->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\Container\Container->make()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\Foundation\Application->make()
+#5 Command line code(70): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"view\" does not exist in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:959
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(959): ReflectionClass->__construct()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\\Foundation\\Application->make()
+#6 Command line code(70): app()
+#7 {main}
+
+Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [view] does not exist. in /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(832): Illuminate\\Container\\Container->build()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1078): Illuminate\\Container\\Container->resolve()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php(763): Illuminate\\Foundation\\Application->resolve()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1058): Illuminate\\Container\\Container->make()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(124): Illuminate\\Foundation\\Application->make()
+#5 Command line code(70): app()
+#6 {main}
+  thrown at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Container/Container.php:961)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(247): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: '...', code: '...', error: '...', traceOffset: '...', traceArgs: '...', trace: '...')
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '...', traceOffset: '...')
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:/var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:257-259}()
+#4 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:18:57] production.ERROR: The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The /var/www/html/api-controle-de-gastos/bootstrap/cache directory must be present and writable. at /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:179)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(132): Illuminate\\Foundation\\PackageManifest->write()
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(108): Illuminate\\Foundation\\PackageManifest->build()
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(91): Illuminate\\Foundation\\PackageManifest->getManifest()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->config()
+#4 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#5 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#6 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith()
+#7 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#8 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
+#9 {main}
+"} 
+[2026-05-20 21:19:54] production.ERROR: Uncaught Symfony\Component\Finder\Exception\DirectoryNotFoundException: The "/var/www/html/api-controle-de-gastos/resources/views" directory does not exist. in /var/www/html/api-controle-de-gastos/vendor/symfony/finder/Finder.php:648
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(588): Symfony\Component\Finder\Finder->in()
+#1 Command line code(45): Illuminate\Filesystem\Filesystem->files()
+#2 Command line code(71): getViews()
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException: The \"/var/www/html/api-controle-de-gastos/resources/views\" directory does not exist. in /var/www/html/api-controle-de-gastos/vendor/symfony/finder/Finder.php:648
+Stack trace:
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(588): Symfony\\Component\\Finder\\Finder->in()
+#1 Command line code(45): Illuminate\\Filesystem\\Filesystem->files()
+#2 Command line code(71): getViews()
+#3 {main}
+  thrown at /var/www/html/api-controle-de-gastos/vendor/symfony/finder/Finder.php:648)
+[stacktrace]
+#0 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(247): Symfony\\Component\\ErrorHandler\\Error\\FatalError->__construct(message: '...', code: '...', error: '...', traceOffset: '...', traceArgs: '...', trace: '...')
+#1 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(234): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->fatalErrorFromPhpError(error: '...', traceOffset: '...')
+#2 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#3 /var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(0): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure:/var/www/html/api-controle-de-gastos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:257-259}()
+#4 {main}
+"} 
